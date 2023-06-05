@@ -10,7 +10,7 @@ Remember to grant the necessary permissions to your Lambda function to send mess
 
 Note that this example assumes that the event data sent to the Lambda function is in a JSON format and will be stringified before sending it as the message body. Modify it according to your specific use case and payload structure.
 
-Received Messages :
+**Received Messages :
 
 Make sure you have the AWS SDK installed by running npm install aws-sdk in your project directory. Replace 'YOUR_QUEUE_URL' in the code with the actual URL of your SQS queue.
 
